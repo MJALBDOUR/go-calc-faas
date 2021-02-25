@@ -16,7 +16,7 @@ func Sub2(w http.ResponseWriter, r *http.Request) {
 
 	err := json.NewEncoder(r.Body).Decode(&twoNumbers)
 	if err != nil {
-		http.Error(w, err.Error(), http.StatusBadRequest)
+		http.Error(w, "Invalid input", http.StatusBadRequest)
 		return
 	}
 
