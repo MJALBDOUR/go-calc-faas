@@ -1,4 +1,4 @@
-package add2
+package mul2
 
 import (
 	"net/http"
