@@ -19,6 +19,7 @@ steps:
   - functions
   - deploy
   - <*function_name*>
+  - --runtime=go113
   - --region=<*function_region*>
   - --source=<*function_source_code*>
   - --trigger-http
