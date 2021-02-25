@@ -20,5 +20,5 @@ func Add2(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fmt.Fprintf(w, "%v", twoNumbers.A + twoNumbers.B)
+	fmt.Fprintf(w, "A + B = %v", twoNumbers.A + twoNumbers.B)
 }
